@@ -1,0 +1,235 @@
+body {
+  background-color: var(--very-dark-blue);
+}
+
+section {
+  margin: 200px auto;
+  width: 370px;
+  height: 370px;
+  background-color: var(--dark-blue);
+  border-radius: 25px;
+  padding: 45px;
+
+  font-family: var(--main-font);
+}
+
+.css-star-container {
+  background-color: rgba(211, 211, 211, 0.055);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.082);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-star-container img {
+  width: 40%;
+}
+
+.css-text-container {
+  margin-top: 45px;
+}
+
+.css-text-container h1 {
+  color: var(--white);
+}
+
+.css-text-container p {
+  color: var(--light-grey);
+}
+
+.css-button-container {
+  margin-top: 30px;
+  margin-left: -23px;
+}
+
+.css-button-container button {
+  background-color: rgba(211, 211, 211, 0.055);
+  color: var(--white);
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.082);
+  margin-left: 23px;
+  cursor: pointer;
+}
+
+.css-submit-button {
+  background-color: rgba(255, 123, 0, 0.986);
+  margin-top: 45px;
+  width: 100%;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 35px;
+  cursor: pointer;
+
+  
+  color: var(--dark-blue);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+}
+
+
+
+/* ELEMENTS'S STYLE FROM JS */
+
+.css-illustration-thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-illustration-thank-you span {
+  background-color: rgba(211, 211, 211, 0.055);
+  color: rgba(255, 123, 0, 0.986);
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.css-illustration-thank-you h2 {
+  color: var(--white);
+  margin-bottom: 5px;
+}
+
+.css-illustration-thank-you p {
+  color: var(--light-grey);
+  line-height: 1.5;
+  text-align: center;
+  width: 360px;
+}
+
+
+            /* ----------------------------- */
+
+
+@media (max-width: 490px) {
+
+  section {
+    width: 350px;
+    height: 350px;
+  }
+
+  .css-text-container h1 {
+    font-size: 20px;
+  }
+
+  .css-text-container p {
+    font-size: 15px;
+  }
+
+  .css-button-container {
+    margin-left: -32px;
+  }
+  
+  .css-button-container button {
+    width: 40px;
+    height: 40px;
+    margin-left: 32px;
+  }
+
+  .css-submit-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+  }
+}
+
+
+            /* ----------------------------- */
+
+@media (max-width: 430px) {
+
+  section {
+    margin: 150px auto;
+    width: 300px;
+  }
+
+  .css-text-container h1 {
+    font-size: 25px;
+  }
+
+  .css-text-container p {
+    font-size: 16px;
+  }
+
+  .css-button-container {
+    margin-left: -21px;
+  }
+  
+  .css-button-container button {
+    width: 40px;
+    height: 40px;
+    margin-left: 21px;
+  }
+
+  .css-submit-button {
+    margin-top: 25px;
+  }
+}
+
+
+            /* ----------------------------- */
+
+
+@media (max-width: 390px) {
+
+  section {
+    margin: 100px auto;
+    width: 270px;
+  }
+
+  .css-button-container {
+    margin-left: -13px;
+  }
+  
+  .css-button-container button {
+    margin-left: 13px;
+  }
+}
+
+
+/* ELEMENTS'S STYLE FROM JS */
+
+.css-illustration-thank-you p {
+  width: 310px;
+  font-size: 16px;
+}
+
+/* ------------------ */
+
+
+
+            /* ----------------------------- */
+
+
+@media (max-width: 375px) {
+
+  section {
+    width: 255px;
+  }
+
+  .css-button-container {
+    margin-left: -10px;
+  }
+  
+  .css-button-container button {
+    margin-left: 9px;
+  }
+
+}
+ 
